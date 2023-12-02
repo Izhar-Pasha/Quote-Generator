@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 74, 161);
+    border-radius: 8px;
+}
+.quote{
+    height: 80px;
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.article{
+    width: 90%;
+}
+.line{
+    margin-top: 10px;
+    height: 1.3px;
+    width: 100%;
+    background-color: black;
+}
+.bottom{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.author{
+    font-size: 1.5rem;
+    width: 50%;;
+}
+#next{
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-inline-end: 40px;
+}
+#next:active{
+    font-size: 1.5rem;
+}
+#whatsapp{
+    font-size: 1.8rem;
+    margin-inline-end: 5px;
+
+} 
+#whatsapp:active{
+    font-size: 1.9rem;
+}
